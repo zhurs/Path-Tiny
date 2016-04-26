@@ -12,7 +12,7 @@ use Config;
 use Exporter 5.57   (qw/import/);
 use File::Spec 3.40 ();
 use Carp ();
-sp
+
 our @EXPORT    = qw/path/;
 our @EXPORT_OK = qw/cwd rootdir tempfile tempdir/;
 
